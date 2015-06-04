@@ -1,3 +1,19 @@
+#HASH Hashin-Shtrikman upper and lower bound curves (moduli)
+#
+# vpu,vpl,vsu,vsl,por = hashb(k1,mu1,k2,mu2,ro1,ro2)
+#	k1,mu1, k2,mu2:	Bulk and shear moduli of the two constituents
+#	ro1,ro2 : density of the two constituents
+#       por: Porosity vector (volume fraction of material 2)
+#       vpu,vpl,vsu,vsl: VP Upper,VP Lower,VS Upper, VS Lower
+# 
+# Jakarta , 4 june 201
+# Written by Roy Baroes For Himpunan Ahli Geofisika Indonesia (HAGI)
+# Modify From T. Mukerji
+#ref. Dvorkin & Nur, 1996, Geophysics, 61, 1363-1370
+#     Rock Physics Handbook, section 5.2
+#********* HS upper and lower bounds **************
+
+
 import numpy as np
 
 
